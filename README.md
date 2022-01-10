@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Books
 
-> One paragraph statement about the project.
+In this project, we will build a basic website that allows users to add/remove books from a list. we will achieve that by using JavaScript objects and arrays. We will also dynamically modify the DOM and add basic events. 
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,13 +10,18 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
+- Major languages:
+  - HTML
+  - CSS
+  - JavaScript
+  - GIT
+  - 
+- Technologies used:
+  - VScode
+  - GitHub
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://sergiogval.github.io/awesome-books/)
 
 
 ## Getting Started
