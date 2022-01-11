@@ -18,6 +18,8 @@ button {
   letter-spacing: 1px;
   padding: 0.4rem;
   border-radius: 6px;
+  margin-left: 16.8em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
 input {
@@ -58,6 +60,12 @@ input,
   display: flex;
   justify-content: space-between;
   padding: 0.5rem;
+}
+
+hr {
+  border: 0.1rem solid #333;
+  margin: 0.5rem auto;
+  width: 25%;
 }
 
 h2,

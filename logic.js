@@ -62,7 +62,7 @@ class Book {
       return allBooks;
     });
   };
-};
+}
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
