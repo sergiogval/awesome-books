@@ -10,21 +10,25 @@ const myBooks = [
     author: 'George Orwell',
   }];
 
-const remove = document.querySelectorAll('.remove');
-
 myBooks.forEach((elem) => {
   const bookList = document.getElementById('bookList');
   const bookItem = document.createElement('div');
   bookItem.innerHTML = `
+  <div class="book"
   <div>${elem.title}</div>
   <div>${elem.author}</div>
-  <button type="button"  class="remove">Remove</button>
-  <hr>`;
+  <button type="button" class="remove">Remove</button>
+  <hr>
+  </div>`;
   bookList.appendChild(bookItem);
 });
 
-remove.addEventListener('click', () => {
-  const bookList = document.getElementById('bookList');
-  const bookItem = document.createElement('div');
-  bookList.removeChild(bookItem);
-});
+function remove() {
+  const removeButton = document.querySelectorAll('.remove');
+  removeButton.forEach((elem) => {
+    elem.addEventListener('click', () => {
+      elem.parentNode.remove();
+    });
+  });
+}
+remove();
