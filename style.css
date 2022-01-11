@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-:root {
-  --color-bg1: #b4adad;
-  --color-bg2: #fff;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Comic Neue', cursive;
   font-size: 14px;
@@ -19,75 +8,69 @@ body {
   height: 100vh;
 }
 
-.pageHeader {
+h2 {
   font-size: 2rem;
+  margin-top: 20px;
+}
+
+button {
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0.4rem;
+  border-radius: 6px;
+}
+
+input {
+  padding: 0.3rem;
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input,
+table {
+  width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+.all-books {
+  max-width: 32rem;
+  margin-bottom: 4rem;
+}
+
+button,
+input,
+.all-books {
+  border: 0.125rem #333 solid;
+}
+
+input,
+.all-books {
+  border-radius: 0.25rem;
+}
+
+.book-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+h2,
+.form-title {
   text-align: center;
 }
 
-.bookList {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 10px;
-  width: 95vw;
-  border: solid 2px black;
+.form {
+  max-width: 16rem;
+  box-sizing: border-box;
 }
 
-.bookList div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  background-color: ((odd) var(--color-bg1));
-  width: 100%;
-  padding: 1%;
-  border: none;
-}
-
-.line {
-  color: black;
-  background-color: black;
-  height: 2px;
-  width: 30%;
-  display: flex;
-  justify-self: center;
-  margin: 3% auto 2% auto;
-}
-
-.formHeader {
-  font-size: 2rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 100%;
-  padding: 1%;
-}
-
-.title {
-  display: flex;
-  width: 60%;
-  margin: 1% auto 2px auto;
-  padding: 2px;
-  border: solid 2px black;
-  outline: none;
-}
-
-.author {
-  display: flex;
-  width: 60%;
-  margin: 2px auto 1% auto;
-  padding: 2px;
-  border: solid 2px black;
-  outline: none;
-}
-
-.bookAdd {
-  display: flex;
-  margin-left: 72%;
-  width: 3rem;
-  padding: 0 4px;
-  font-weight: 400;
-}
-
-.error {
-  display: none;
+.all-books,
+.form {
+  margin: 0 auto;
 }
