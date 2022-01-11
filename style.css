@@ -86,5 +86,8 @@ body {
   width: 3rem;
   padding: 0 4px;
   font-weight: 400;
+}
 
+.error {
+  display: none;
 }
