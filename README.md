@@ -48,23 +48,24 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Shay Craig**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@craigs40](https://github.com/craigs40)
+<!-- - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
 
-👤 **Author2**
+👤 **Sergio Valadez**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@sergiogval](https://github.com/sergiogval)
+- Twitter: [@srgvldz](https://twitter.com/srgvldz)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sergio-valadez-282153216/)
+- Instagram: [@sergioval](https://www.instagram.com/sergioval/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/sergiogval/awesome-books/issues).
 
 ## Show your support
 
