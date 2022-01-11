@@ -1,6 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+  --color-bg1: #b4adad;
+  --color-bg2: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  font-family: 'Comic Neue', cursive;
   font-size: 14px;
   line-height: 1.5;
   width: 100vw;
   height: 100vh;
+}
+
+.pageHeader {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.bookList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  width: 95vw;
+  border: solid 2px black;
+}
+
+.bookList div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: ((odd) var(--color-bg1));
+  width: 100%;
+  padding: 1%;
+  border: none;
+}
+
+.line {
+  color: black;
+  background-color: black;
+  height: 2px;
+  width: 30%;
+  display: flex;
+  justify-self: center;
+  margin: 3% auto 2% auto;
+}
+
+.formHeader {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 1%;
+}
+
+.title {
+  display: flex;
+  width: 60%;
+  margin: 1% auto 2px auto;
+  padding: 2px;
+  border: solid 2px black;
+  outline: none;
+}
+
+.author {
+  display: flex;
+  width: 60%;
+  margin: 2px auto 1% auto;
+  padding: 2px;
+  border: solid 2px black;
+  outline: none;
+}
+
+.bookAdd {
+  display: flex;
+  margin-left: 72%;
+  width: 3rem;
+  padding: 0 4px;
+  font-weight: 400;
+
 }
