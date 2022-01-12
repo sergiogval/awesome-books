@@ -12,12 +12,24 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   font-family: 'Comic Neue', cursive;
   font-size: 14px;
   line-height: 1.5;
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
+}
+
+header {
+  width: 90%;
+}
+
+main {
+  width: 60%;
 }
 
 h2 {
@@ -141,16 +153,15 @@ hr {
 
 .footer {
   width: 90%;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
   border: solid 2px black;
   border-radius: 5px;
-  margin: 1% auto;
+  margin: 0 auto;
   padding: 2px 0 2px 6px;
   font-weight: bold;
   font-size: 1.2rem;
+  display: flex;
+  align-self: flex-end;
+  margin-bottom: 10px;
 }
 
 .listSection.hidden {
