@@ -126,6 +126,21 @@ h1 {
   margin-block: 0.2em;
 }
 
+.contact-text {
+  text-align: center;
+  width: 50%;
+}
+
+.contactInfo {
+  width: 25%;
+  padding-top: 10px;
+}
+
+.contact-text,
+.contactInfo {
+  margin: 0 auto;
+}
+
 .footer {
   width: 90%;
   display: flex;
