@@ -22,7 +22,7 @@ const populateFields = () => {
 };
 
 const today = new Date();
-document.getElementById("date").innerHTML = today;
+document.getElementById('date').innerHTML = today;
 
 class Book {
   constructor(title, author) {
