@@ -62,12 +62,6 @@ input,
   padding: 0.5rem;
 }
 
-hr {
-  border: 0.1rem solid #333;
-  margin: 0.5rem auto;
-  width: 25%;
-}
-
 h2,
 .form-title {
   text-align: center;
@@ -81,4 +75,57 @@ h2,
 .all-books,
 .form {
   margin: 0 auto;
+}
+
+.topnav {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+.menu {
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  list-style-type: none;
+  margin-block: 0.2em;
+}
+
+hr {
+  border: 0.1rem solid #333;
+  height: 16px;
+  margin: 0.5rem auto;
+}
+
+.logo {
+  margin-left: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  margin-block: 0.2em;
+}
+
+.footer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  left: 2em;
+  border: solid 2px black;
+  border-radius: 5px;
+  margin: 10% auto 0 auto;
+  padding: 1%;
 }

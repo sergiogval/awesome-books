@@ -2,18 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Books</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Books</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <header class="header">
+    <nav class="topnav">
+      <h1><a href="#" class="logo">Awesome Books</a></h1>
+      <ul class="menu">
+        <li class="#">List</li>
+        <li><hr></li>
+        <li class="#">Add new</li>
+        <li><hr></li>
+        <li class="#">Contact</li>
+      </ul>
+    </nav>
+    <div class="date">placeholder</div>
+  </header>
+  <main class="main">
     <h2>All awesome books</h2>
     <div class="all-books">
     </div>
-    <hr>
     <h2 class="form-title">Add a new book
     </h2>
     <form class="form">
@@ -21,6 +34,11 @@
       <input type="text" name="author" placeholder="Author" required />
       <button type="submit">Add</button>
     </form>
-    <script src='logic.js'></script>
-  </body>
+  </main>
+  <footer class="footer">
+    <p class="CopyRight">&copy; 2020 Awesome Books</p>
+  </footer>
+  <script src='logic.js'></script>
+</body>
+
 </html>
