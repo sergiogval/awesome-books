@@ -21,6 +21,9 @@ const populateFields = () => {
   localStorage.setItem('savedBooks', JSON.stringify(books));
 };
 
+const today = new Date();
+document.getElementById("date").innerHTML = today;
+
 class Book {
   constructor(title, author) {
     this.title = title;

@@ -88,6 +88,12 @@ h2,
   border-radius: 5px;
 }
 
+div#date {
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .menu {
   font-weight: bold;
   font-size: 1.2rem;
